@@ -1,10 +1,10 @@
 #mymenuda {
 	background-color: rgb(178,186,204);
-	border-left: 50px solid #CD6090; /* tamanho da borda e cor- não retire pq ela centraliza o menu */
+	/*border-left: 50px solid #CD6090;*/ /* tamanho da borda e cor- não retire pq ela centraliza o menu */
 	border-color: rgb(178,186,204);
 
 	width: 100%;
-	height: 50px;
+	height: 38px;
 	padding: 0px;
 	margin: 0px;
 	position: fixed;
@@ -16,7 +16,7 @@
 #mymenu {
 	background: #333333; /* cor da fonte */
 	font-family: 'Arial', corsiva; /* nome da fonte */
-	font-size: 20px; /* titulo da fonte */
+	font-size: 16px; /* titulo da fonte */
 	text-transform: uppercase; 
 }
 
@@ -58,7 +58,7 @@
 	position: absolute;
 	left: -999em;
 	height: auto;
-	width: 150;/*120*/
+	width: 200px;/*120*/
 	padding-left: -40px;/*-40*/
 
 }
@@ -66,9 +66,10 @@
 #mymenu li ul li:hover{
 	background-color:#85b1f7;	
 }
-/*#mymenu li ul li{
+#mymenu li ul li{
 	border-bottom: 1px solid #848587;	
-}*/
+	width: 200px;
+}
 #mymenu li ul a {
 	font-size: 13px;
 	line-height: 24px;
@@ -97,7 +98,7 @@
 	text-transform: uppercase; 
 }
 #mymenumobile{
-	position: absolute;
+	
 	display: none;
 	list-style-type: none;
 	background-color: #e3e4e5;
@@ -106,6 +107,7 @@
 	font-size: 14px; /* titulo da fonte */
 	text-transform: uppercase; 
 	padding: 5px;
+	padding-top: 50px;
 }
 #mymenumobile li {
 	list-style-type: none;
@@ -148,5 +150,16 @@
 }
 #logo{
 	width: 120px;
+
+}
+#logo-cel{
+	width: 120px;
+	float: left;
+
+}
+#menu-icone{
+	float: left;
+	
+
 
 }

@@ -1,5 +1,5 @@
 window.onload = function(){
-  if (window.innerWidth<710 || 
+  if (window.innerWidth<1266 || 
     ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
     var div = document.getElementById('mymenu');
     var div2 = document.getElementById('mymenumobileda');
@@ -34,7 +34,7 @@ window.onload = function(){
 
 
 window.onresize = function() {
-      if (window.innerWidth<710 || 
+      if (window.innerWidth<1266 || 
       (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
         var div = document.getElementById('mymenu');
         var div2 = document.getElementById('mymenumobileda');
